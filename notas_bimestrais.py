@@ -14,10 +14,10 @@ soma = nota_1 + nota_2
 media = soma / 2
 
 if media >= 6:
-    print(f'\nParabéns! Sua média foi de {media:.1f}. Você está APROVADO!!')
+    print(f'Parabéns! Sua média foi de {media}. Você está APROVADO!!')
 elif 3 <= media <= 5.9:
-    print(f"\nCuidado! Sua média foi de {media:.1f}. Você está de EXAME!")
+    print(f"Cuidado! Sua média foi de {media}. Você está de EXAME!")
 else:
-    print(f'\nQue pena! Sua média foi de {media:.1f}. Você está REPROVADO!')
+    print(f'Que pena! Sua média foi de {media}. Você está REPROVADO!')
 
-print("\n==================== OBRIGADO POR USAR O SISTEMA ====================")
+print("==================== OBRIGADO POR USAR O SISTEMA ====================")
